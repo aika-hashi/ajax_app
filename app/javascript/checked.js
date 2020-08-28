@@ -22,6 +22,7 @@ function check() {
         } else if (item.checked === false) {
           post.removeAttribute("data-check");
         }
+        
       };
     });
   });
